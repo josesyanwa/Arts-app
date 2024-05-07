@@ -1,0 +1,47 @@
+/* Login.css */
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="button"] {
+    background-color:black; /* Blue color for artist login button */
+    color: white;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #272f38; /* Darker blue color on hover */
+  }
+  
+  button[type="submit"] {
+    background-color: black; /* Green color for user login button */
+    color: white;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #272f38; /* Darker green color on hover */
+  }
+  

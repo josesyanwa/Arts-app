@@ -1,0 +1,42 @@
+.centered-container{
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+
+.artworks-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+
+  .artwork-item {
+    margin-top: 2cm;
+  }
+
+  .heading {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+  }
+
+  .post-art-button {
+    background-color: #193e66;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 1cm;
+  }
+  
+  .post-art-button:hover {
+    background-color: #011225;
+  }
+
+  .comment-section {
+    margin-left: auto; /* Move comment section to the right */
+  }
+  

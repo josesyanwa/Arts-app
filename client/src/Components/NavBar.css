@@ -1,0 +1,77 @@
+/* Add these styles to your existing CSS or create a new CSS file */
+.navbar {
+    
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust the height of the logo as needed */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #000000; /* Background color of the search bar */
+    
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    margin-right: 10px; /* Adjust the margin to your preference */
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .search-input {
+    background-color: #000000; /* Background color of the input field */
+    color: #ffffff; /* Text color of the input field */
+    border: none;
+    padding: 5px; /* Adjust padding to your preference */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Adjust the gap between links as needed */
+  }
+  
+  .nav-links a {
+    color: #ffffff; /* Text color for links */
+    font-size: 16px; 
+    text-decoration: none;
+    margin-top: 7px;
+    
+  }
+  
+  /* Style for active link (current page) */
+  .nav-links a.active {
+    color: #ffcc00; /* Adjust the color for the active link */
+  }
+  
+
+  /* NavBar.css */
+/* ... (existing styles) */
+
+.nav-links .login-button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px; /* Adjust the font size as needed */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* ... (existing styles) */
+.nav-links .signup-button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px; /* Adjust the font size as needed */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}

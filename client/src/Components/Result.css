@@ -1,0 +1,37 @@
+.result-container {
+    max-width: 300px;
+    margin: 0 auto;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 80vh; 
+  }
+  
+  .art-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .art-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .artist-info {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
+  .art-price {
+    font-size: 13px;
+    color: #007bff;
+  }
+  
+  .art-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  

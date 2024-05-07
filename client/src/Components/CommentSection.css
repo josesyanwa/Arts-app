@@ -1,0 +1,52 @@
+.comment-section {
+    max-height: 100px;
+    overflow-y: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comment-section h3 {
+    margin-top: 5px;
+  }
+  
+  .comment-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .comment-section form {
+    margin-top: 10px;
+  }
+  
+  .comment-section input [type="text"] {
+    width: calc(100% - 80px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .comment-section button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 3px 6px; /* Reduce padding to make the button smaller */
+    font-size: 12px;
+  }
+  
+  .comment-section button:hover {
+    background-color: #0056b3;
+  }
+
+  .author-name {
+    font-weight: bold; /* Make the author's name bold */
+  }
+  

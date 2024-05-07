@@ -1,0 +1,98 @@
+/* ... other styles ... */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-button {
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background: black;
+    color: white; /* Adjust the color as needed */
+    position: absolute; /* Position the button absolutely within the modal */
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; 
+  }
+  
+  /* ... other styles ... */
+  
+   .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/Assets/img\ 9.jpg'); 
+    background-size: cover;
+    background-position: center;
+    /* filter: opacity(0.5); */
+    z-index: 0;  
+  } 
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1; 
+  }
+  
+/* SignUp.css */
+.artist-label,
+.user-label {
+  color: white;
+}
+
+/* SignUp.css */
+
+/* Styling for labels */
+.artist-label,
+.user-label {
+  color: black;
+  display: block; /* Display labels as block elements */
+  margin-bottom: 10px; /* Add space between labels */
+}
+
+/* Styling for input fields */
+input {
+  display: block; /* Display inputs as block elements */
+  margin-bottom: 10px; /* Add space between input fields */
+}
+
+.signup-button {
+  color: white; /* Set text color to white */
+  background-color: black; /* Set background color to black */
+  border: none; /* Remove border */
+  padding: 7px 14x; /* Add padding for better appearance */
+  font-size: 12px; /* Adjust font size as needed */
+  cursor: pointer; /* Add cursor pointer on hover */
+}
+
+.signup-button:hover {
+  background-color: whitesmoke; /* Darken the background color on hover */
+}
+

@@ -1,0 +1,52 @@
+/* PostArt.css */
+
+/* Style for the container holding the button and form */
+.post-art-container {
+    text-align: center;
+  }
+  
+  /* Style for the button */
+  .post-art-button {
+    background-color: rgb(35, 35, 77);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the form */
+  .post-art-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for form input fields */
+  .post-art-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 300px;
+    color: black; 
+  }
+  
+  /* Style for form submit button */
+  .post-art-submit-button {
+    background-color: rgb(35, 35, 136);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for form submit button on hover */
+  .post-art-submit-button:hover {
+    background-color:rgb(1, 1, 15);
+  }
+  
+  .headings {
+    text-align: center;
+    color: rgb(61, 61, 61);
+    font-size: 24px;
+    font-weight: normal;
+  }
