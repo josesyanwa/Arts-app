@@ -29,6 +29,7 @@ flask-bcrypt = "*"
 flask-session = "*"
 flask-restful = "*"
 flask-jwt-extended = "*"
+validators = "*"
 
 [dev-packages]
 
